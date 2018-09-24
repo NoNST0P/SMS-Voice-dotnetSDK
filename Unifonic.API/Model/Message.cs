@@ -246,7 +246,7 @@ namespace Unifonic
         /// <summary>
         /// Destination mobile number, mobile numbers must be in international format without 00 or + Example: (4452023498)
         /// </summary>
-        public string RecipientNumber { get; set; }
+        public string Recipient { get; set; }
         /// <summary>
         /// The mobile number country the message was sent to
         /// </summary>
